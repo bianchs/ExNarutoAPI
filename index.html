@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumo de API naruto</title>
+    <script src="./js/script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+       <img src="./img/Agatha-bianca.png">
+       <div class="conteudo-div">
+        <h1>API naruto</h1>
+        <p>Selecione o seu personagem favorito e veja os dados dele!</p>
+       </div>
+    </header>
+    <div class="container">
+        <h1>Personagem</h1>
+        <select id="selecionarPersonagem">
+            <option>Nenhum personagem selecionado</option>
+        </select>
+        <button type="button" onclick="ListarPersonagens()" id="botaoListar">Listar personagens</button>
+        <button type="button" onclick="ExibirDados()" id="botaoExibir">Mostrar dados</button>
+        <button type="button" onclick="LimparDados()" id="botaoLimpar">Limpar dados</button>
+        
+        <div id="divResultado">
+        
+        </div>
+    </div>
+    
+</body>
+
+</html>
